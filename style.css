@@ -92,6 +92,12 @@ img{
   }  
 }
 
+@media screen and (min-width: 768px){
+  .HeaderLogo:hover{
+    opacity: .8;
+  }
+}
+
 a{
   color: #000;
   text-decoration: none;
@@ -215,6 +221,12 @@ ul{
   }
 }
 
+@media screen and (min-width:768px){
+  .HeaderNavListItem:hover{
+    opacity: .8;
+  }
+}
+
 .HeaderNavListItem-Link{
   display: block;
 }
@@ -297,6 +309,12 @@ ul{
 @media screen and (min-width: 768px){
   .HeaderNavListItem-Link-button{
     transition: opacity .2s;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .HeaderNavListItem-Link-button:hover{
+    opacity: .8;
   }
 }
 
@@ -478,6 +496,12 @@ section{
 @media screen and (min-width: 768px){
   .FirstViewContent-button a{
     transition: opacity .2s;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .FirstViewContent-button a:hover{
+    opacity: .8;
   }
 }
 
